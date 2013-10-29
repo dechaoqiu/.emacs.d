@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Copyright
+# key: Copyright
+# binding: direct-keybinding
+# expand-env: ((some-var some-value))
+# type: command
+# --
+#+BEGIN_HTML
+TEST
+#+END_HTML
