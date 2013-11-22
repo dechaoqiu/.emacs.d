@@ -49,6 +49,7 @@
 	path = site-lisp/python-mode
 	url = https://github.com/emacsmirror/python-mode.git
 	ignore = dirty
-[submodule "site-lisp/python-mode"]
+[submodule "site-lisp/emacs-color-theme-solarized"]
 	path = site-lisp/emacs-color-theme-solarized
 	url = https://github.com/sellout/emacs-color-theme-solarized.git
+

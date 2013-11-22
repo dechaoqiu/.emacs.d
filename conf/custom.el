@@ -1,4 +1,4 @@
-;; (menu-bar-mode nil)
+(menu-bar-mode -1)
 (setq scroll-bar-mode nil)
 (setq tool-bar-mode nil)
 ;; share clipboard
@@ -28,13 +28,9 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 
 ;; Auto-Save
-(require 'saveplace)
-(setq save-place-file "~/.emacs.d/cache/saved-places")
-(setq default-save-place t)
-(setq auto-save-list-file-prefix 
-      "~/.emacs.d/cache/auto-save-list")
-;; (setq auto-save-mode t)
-
+;; (setq make-backup-files nil)
+;; (setq auto-save-mode nil)
+(setq backup-directory-alist `(("." . "~/.saves")))
 ;; Key-Bind
 (global-unset-key (kbd "C-\\"))
 (global-set-key (kbd "C-M-o") 'delete-other-windows)

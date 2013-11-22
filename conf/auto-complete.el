@@ -1,7 +1,7 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete/lib/popup")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete/lib/fuzzy")
 (add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete/lib/ert")
-(add-to-list 'load-path "~/.emacs.d/site-lisp/auto-complete/lib/popup")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/site-lisp/auto-complete/dict")
 (setq ac-comphist-file "~/.emacs.d/ac-comphist.dat")
